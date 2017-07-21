@@ -1,0 +1,93 @@
+/*colores
+turquesa: #009688
+gris: #dfdfdf;
+gris fondo chat: ede9e4;
+gris iconos: #777777;
+*/
+
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*base*/
+#contenedor{
+	position: fixed;
+    width: 100%;
+}
+.base_uno{
+	background-color: #009688;
+	height:20vh;
+}
+
+.base_dos{
+	background-color: #dfdfdf;
+	height:100vh;
+}
+
+/*chat*/
+
+.chat{
+	background-color: white;
+	margin-top: 20px;
+	height: 85vh;
+	padding: 0;
+	/*position: fixed;*/
+}
+.chat2{
+	background-color: #ede9e4;
+	margin-top: 20px;
+	height: 85vh;
+	padding-right: 0;
+	padding-left: 0;
+}
+.uno_fondo{
+	background-color: #dfdfdf;
+}
+.usuario{
+	margin: 10px;
+	border-radius: 50%;
+	height: 40px;
+    width: 40px;
+}
+.usu{
+	background-color:  #dfdfdf;
+	border-bottom: 1px solid #777777;
+	border-right: 1px solid #777777;
+}
+.input1{
+	border-radius: 3px;
+	height: 30px;
+	margin:20px;
+}
+.input2{
+	border-radius: 3px;
+	height: 30px;
+	border:none;
+}
+.converzacion{
+	height: 70vh;
+	background-image: url(img/chat-panel-bg.png);
+}
+.identificacion{
+	background-color: #dfdfdf;
+	border-bottom: 1px solid #777777;
+}
+hr{
+	margin: 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*iconos*/
+#clip{
+	color: #777777;
+	font-size: 22px;
+}
+#clip2{
+	color: #777777;
+	font-size: 22px;
+	float:right;
+	margin-top: 15px;
+    margin-right: 35px;
+}
